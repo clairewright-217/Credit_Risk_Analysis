@@ -41,11 +41,11 @@ Smote - this doesnt help in improving model performance
 
 2. SMOTE
 
-![SMOTE](/Module-17-Challenge_Resources/Resources/SMOTE_Results.png)
+![SMOTE](../Module-17-Challenge_Resources/Resources/SMOTE_Results.png)
 
 3. ClusterCentroids
 
-![ClusterCentroids](/Module-17-Challenge_Resources/Resources/ClusterCentroids_Results.png)
+![ClusterCentroids](../Resources/ClusterCentroids_Results.png)
 
 
 4. SMOTEENN
@@ -54,7 +54,7 @@ Smote - this doesnt help in improving model performance
 
 5. BalancedRandomForestClassifer
 
-![BalancedRandomForestClassifer(/Module-17-Challenge_ResourcesResources/BalRandomForestClassifer_Results.png)
+![BalancedRandomForestClassifer](/Module-17-Challenge_ResourcesResources/BalRandomForestClassifer_Results.png)
 
 
 6. EasyEnsembleClassifer
