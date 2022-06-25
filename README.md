@@ -35,31 +35,31 @@ Smote - this doesnt help in improving model performance
 
 1. RandomOverSampler
 
-![RandomOverSampler](/Resources/RandomOverSampler_Results.png)
+![RandomOverSampler](/Module-17-Challenge_Resources/Resources/RandomOverSampler_Results.png)
 
 
 
 2. SMOTE
 
-![SMOTE](/Resources/SMOTE_Results.png)
+![SMOTE](/Module-17-Challenge_Resources/Resources/SMOTE_Results.png)
 
 3. ClusterCentroids
 
-![ClusterCentroids](/Resources/ClusterCentroids_Results.png)
+![ClusterCentroids](/Module-17-Challenge_Resources/Resources/ClusterCentroids_Results.png)
 
 
 4. SMOTEENN
 
-![SMOTEENN](/Resources/SMOTEENN_Results.png)
+![SMOTEENN](/Module-17-Challenge_Resources/Resources/SMOTEENN_Results.png)
 
 5. BalancedRandomForestClassifer
 
-![BalancedRandomForestClassifer(/Resources/BalRandomForestClassifer_Results.png)
+![BalancedRandomForestClassifer(/Module-17-Challenge_ResourcesResources/BalRandomForestClassifer_Results.png)
 
 
 6. EasyEnsembleClassifer
 
-![EasyEnsembleClassifer](/Results/EasyEnsembleClassifer_Results.png)
+![EasyEnsembleClassifer](/Module-17-Challenge_Resources/Results/EasyEnsembleClassifer_Results.png)
 
 
 ## Summary
