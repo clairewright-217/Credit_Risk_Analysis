@@ -33,7 +33,7 @@ Smote - this doesnt help in improving model performance
 
 ## Results
 
-1. RandomOverSampler
+**1. RandomOverSampler**
 
 ![RandomOverSampler](Module-17-Challenge-Resources/Resources/RandomOverSampler_Results.png)
 
@@ -43,7 +43,7 @@ Smote - this doesnt help in improving model performance
 
 This RandomOverSampler model has a 65% **accuracy score**, which is in the mid-high range compared to the other modules tested. The **recall score**, which shows how likely all of the actually bad loans will be flagged for riskiness, is around 0.63, which is in the middle of the pack compared to the other models. Finally, the **precision score** is 0.01, which is very low. This means the model is flagging a lot of unrisky loans as risky, and therefore is not precise due to the high number of false positives it produces. 
 
-2. SMOTE
+**2. SMOTE**
 
 ![SMOTE](Module-17-Challenge-Resources/Resources/SMOTE_Results.png)
 
@@ -53,7 +53,7 @@ This RandomOverSampler model has a 65% **accuracy score**, which is in the mid-h
 
 The SMOTE model performed almost the same as the RandomOverSampler. That is, the model's accuracy score was in the middle of the pack compared ot the other models, and its recall score is decent at 0.64, meaning it will be able to catch the majority of all risky loans. However, it will classify a lot of loans as risky that are in fact not (false positives), which is why it has a very low precision score. 
 
-3. ClusterCentroids
+**3. ClusterCentroids**
 
 ![ClusterCentroids](Module-17-Challenge-Resources/Resources/ClusterCentroids_Results.png)
 
@@ -63,7 +63,7 @@ The SMOTE model performed almost the same as the RandomOverSampler. That is, the
 
 The ClusterCentroids model performed the worst of all models. It has the lowest accuracy score at 52%, the lowest recall score at 0.57, and is also tied for the lowest precision score at 0.01. This means it will have the highest number of both false negatives and false positives compared to all of the other models, and overall will not do a very good job of discerning between risky and healthy loans. 
 
-4. SMOTEENN
+**4. SMOTEENN**
 
 ![SMOTEENN](Module-17-Challenge-Resources/Resources/SMOTEENN_Results.png)
 
@@ -73,7 +73,7 @@ The ClusterCentroids model performed the worst of all models. It has the lowest 
 
 This SMOTEENN model had a 1% worse accuracy score than the over the two oversampling models, but had a slightly higher recall score at 0.70. The SMOTEENN model therefore will catch more of the risky loans (because of its higher sensitivity score aka recall) than the oversampling models, but it will overall misclassify more of the loans by a slight amount. SMOTEENN did not perform as well as the two following classifer models.
 
-5. BalancedRandomForestClassifer
+**5. BalancedRandomForestClassifer**
 
 ![BalancedRandomForestClassifer](Module-17-Challenge-Resources/Resources/BalRandomForestClassifer_Results.png)
 
@@ -83,9 +83,9 @@ This SMOTEENN model had a 1% worse accuracy score than the over the two oversamp
 
 The BalancedRandomForestClassifier model tied for the best model of all of the ones tested to flag risky loans. Its accuracy score is 79%, which is one of the highest. Its precision score was 4x higher than all of the sampling models, meaning it has fewer false positives. This model works by randomly under-sampling the data set many times (in this case 100) and running each small sample in a "random forest" like model. 
 
-6. EasyEnsembleClassifer
+**6. EasyEnsembleClassifer**
 
-![EasyEnsembleClassifer](Module-17-Challenge-Resources/Results/EasyEnsembleClassifer_Results.png)
+![EasyEnsembleClassifer](Module-17-Challenge-Resources/Resources/EasyEnsembleClassifer_Results.png)
 
     - Accuracy Score: 79%
     - Precision (for high-risk loans): 0.04
