@@ -35,7 +35,7 @@ Smote - this doesnt help in improving model performance
 
 1. RandomOverSampler
 
-![RandomOverSampler](/Module-17-Challenge_Resources/Resources/RandomOverSampler_Results.png)
+![RandomOverSampler](Module-17-Challenge-Resources/Resources/RandomOverSampler_Results.png)
 
     - Accuracy Score: 65%
     - Precision (for high-risk loans): 0.01
@@ -45,7 +45,7 @@ This RandomOverSampler model has a 65% **accuracy score**, which is in the mid-h
 
 2. SMOTE
 
-![SMOTE](../Module-17-Challenge_Resources/Resources/SMOTE_Results.png)
+![SMOTE](Module-17-Challenge-Resources/Resources/SMOTE_Results.png)
 
     - Accuracy Score: 65%
     - Precision (for high-risk loans): 0.01
@@ -55,7 +55,7 @@ The SMOTE model performed almost the same as the RandomOverSampler. That is, the
 
 3. ClusterCentroids
 
-![ClusterCentroids](../Resources/ClusterCentroids_Results.png)
+![ClusterCentroids](Module-17-Challenge-Resources/Resources/ClusterCentroids_Results.png)
 
     - Accuracy Score: 52%
     - Precision (for high-risk loans): 0.01
@@ -65,7 +65,7 @@ The ClusterCentroids model performed the worst of all models. It has the lowest 
 
 4. SMOTEENN
 
-![SMOTEENN](/Module-17-Challenge_Resources/Resources/SMOTEENN_Results.png)
+![SMOTEENN](Module-17-Challenge-Resources/Resources/SMOTEENN_Results.png)
 
     - Accuracy Score: 64%
     - Precision (for high-risk loans): 0.01
@@ -75,7 +75,7 @@ This SMOTEENN model had a 1% worse accuracy score than the over the two oversamp
 
 5. BalancedRandomForestClassifer
 
-![BalancedRandomForestClassifer](/Module-17-Challenge_ResourcesResources/BalRandomForestClassifer_Results.png)
+![BalancedRandomForestClassifer](Module-17-Challenge-Resources/Resources/BalRandomForestClassifer_Results.png)
 
     - Accuracy Score: 79%
     - Precision (for high-risk loans): 0.04
@@ -85,7 +85,7 @@ The BalancedRandomForestClassifier model tied for the best model of all of the o
 
 6. EasyEnsembleClassifer
 
-![EasyEnsembleClassifer](/Module-17-Challenge_Resources/Results/EasyEnsembleClassifer_Results.png)
+![EasyEnsembleClassifer](Module-17-Challenge-Resources/Results/EasyEnsembleClassifer_Results.png)
 
     - Accuracy Score: 79%
     - Precision (for high-risk loans): 0.04
